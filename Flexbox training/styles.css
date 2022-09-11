@@ -8,6 +8,38 @@ body {
     font-family: sans-serif;
     background-color: #333;
 }
+section:nth-child(1) {
+    display: flex;
+    background-color: #678;
+    height: 400px;
+    align-items: center;
+    align-items: baseline;
+    align-items: flex-end;
+
+}
+
+section:nth-child(1) div {
+    width: 20%;
+    text-align: center;
+
+}
+
+section:nth-child(1) div:nth-child(1) {
+    background-color: goldenrod;
+}
+
+section:nth-child(1) div:nth-child(2) {
+    background-color: green;
+}
+
+section:nth-child(1) div:nth-child(3) {
+    background-color: blue;
+}
+
+section:nth-child(1) div:nth-child(4) {
+    background-color: red;
+}
+
 section:nth-child(2) {
     display: flex;
     flex-direction: row-reverse;
@@ -25,7 +57,7 @@ section:nth-child(3) {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    /*width: 200px;*/
     height: 200px;
     font-size: 50px;
     background-color: yellow;
