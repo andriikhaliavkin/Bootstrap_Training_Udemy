@@ -8,6 +8,15 @@ body {
     font-family: sans-serif;
     background-color: #333;
 }
+section:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+section:nth-child(3) {
+    display: flex;
+    flex-direction: column-reverse;
+}
 
 .square {
     display: flex;
@@ -22,10 +31,8 @@ body {
 
 section {
     display: flex;
-    /*flex-wrap: wrap;*/
-    /*flex-direction: row-reverse;*/
-    /*flex-direction: column;*/
-    flex-flow: column wrap;
+    flex-direction: row;
+
 }
 
 /*1. Flexbox jest jednokierunkowy
